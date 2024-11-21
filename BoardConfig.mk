@@ -20,7 +20,7 @@ include device/samsung/klimt-common/BoardConfigCommon.mk
 LOCAL_PATH := device/samsung/klimtwifi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := klimtwifi
+TARGET_OTA_ASSERT_DEVICE := klimtwifi,klimtltecan,klimtlte,
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_klimtwifi_defconfig
